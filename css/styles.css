@@ -55,6 +55,11 @@ h4 {
 a,a:link,a:visited,a:hover{
 	color: white;
 }
+
+#atext {
+	color: black;
+}
+
 .arrow-up {
   width: 0; 
   height: 0; 

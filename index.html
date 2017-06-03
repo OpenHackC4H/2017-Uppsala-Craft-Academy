@@ -1,29 +1,69 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-  div {
-    font: 10px sans-serif;
-    background-color: lightblue;
-    text-align: center;
-    padding: 3px;
-    margin: 1px;
-    color: white;
-  }
-</style>
+<html lang="en">
 
+<head>
+	<link href="css/styles.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
 <body>
 
-  <div>
-    <img src="ua.svg" alt="">
-    </img>
+	<div class="header">
+		<div class="row">
+			<div class="col-md-4">
+				<h2 class="project-name">Unemployed Anonymous</h2>
+			</div>
+			<div class="col-sm-1" id="navtab0">
+				<h4><a href="profile.html" id="pr">Profile</a></h4>
+			</div>
+			<div class="col-sm-1" id="navtab1">
+				<h4><a href="questions.html" id="qu">Questions</a></h4>
+			</div>
+			<div class="col-md-3" id="navtab1">
+				<h4></h4>
+			</div>
+			<div class="col-md-2">
+				<h4 >Language: <select id="lang">
+					<option value="eng">English</option>
+					<option value="swe">Swedish</option>
+				</select></h4>
+			</div>
+			<div class="col-sm-1" id="signindiv">
+				<button id="signin">Sign In</button>
+			</div>
+		</div>
+	</div>
 
-    <iframe src="https://docs.google.com/presentation/d/17CzzQc4o5T8Y-WLGMeR4Y0AztX0DvMzCC6IZe8YzCE0/embed?start=true&loop=false&delayms=3000" frameborder="0" width="720" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-  </div>
-
+	<div class="row blue">
+		<div id="logo" class="col-sm-6 image-container">
+			<img src="ua.svg" alt=""/>
+		</div>
+		<div id="vid" class="col-sm-5 image-container">
+			<iframe src="https://docs.google.com/presentation/d/17CzzQc4o5T8Y-WLGMeR4Y0AztX0DvMzCC6IZe8YzCE0/embed?start=true&amp;loop=false&amp;delayms=3000" 
+					frameborder="0" width="720" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+		</div>
+	</div>
+	<br/>
+	
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-7">
+			<h3>About Us</h3>
+			<p>Unemployed Anonymous creates a networked community to help connect people to the right jobs.<br/>
+				We connect you with knowledgeable professionals who can help you to find the perfect job<br/>
+				and give you great advice. </p>
+		</div>
+	
+		<div class="col-md-2">
+			<br/><br/><br/>
+			<button id="join">Join Now</button>
+		</div>
+	<div>
 
 
 </body>
-
 </html>

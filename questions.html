@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="css/styles.css" rel="stylesheet">
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="row">
+			<div class="col-md-3">
+				<h3 class="project-name">Unemployed Anonymous</h3>
+			</div>
+			<div class="col-sm-1" id="navtab0">
+				<h4>Profile</h4>
+			</div>
+			<div class="col-sm-1" id="navtab1">
+				<h4><a href="questions.html" id="qu">Questions</a></h4>
+			</div>
+			<div class="col-md-4" id="navtab1">
+				<h4></h4>
+			</div>
+			<div class="col-md-2">
+				<h4 >Language: <select id="lang">
+					<option value="eng">English</option>
+					<option value="swe">Swedish</option>
+				</select></h4>
+			</div>
+			<div class="col-sm-1" id="logoutdiv">
+				<button id="logout">Log Out</button>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="col-md-6">
+		<form>
+			<div class="form-group"> <!-- Question field !-->
+				<h4><label for="question" class="control-label">Write your question here</label></h4>
+				<textarea rows="4" cols="100" class="form-control" id="questiontext" name="question" placeholder="Your Question Here"></textarea>
+			</div>
+	
+			<div class="form-group"> <!-- Submit button !-->
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>	
+		</form>
+	</div>
+
+</body>

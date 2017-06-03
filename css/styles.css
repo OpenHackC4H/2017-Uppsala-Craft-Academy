@@ -8,6 +8,13 @@
 	border: none;
 }
 
+#logout {
+	background-color: black;
+	border-radius: 10px;
+	padding: 15px 20px;
+	border: none;
+}
+
 #join {
 	background-color: #32CD32;
 	border-radius: 10px;
@@ -99,5 +106,12 @@ a,a:link,a:visited,a:hover{
 	 background-color: lightblue;
 }
 
+.arrow {
+	font-size: 20pt;
+}
+
+.arrow:hover {
+	cursor: pointer;
+}
 
 

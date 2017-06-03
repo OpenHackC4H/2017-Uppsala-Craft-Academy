@@ -114,4 +114,15 @@ a,a:link,a:visited,a:hover{
 	cursor: pointer;
 }
 
+#search {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background:url(../css/search.png) 0 0 no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 

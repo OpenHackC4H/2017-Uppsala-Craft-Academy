@@ -34,7 +34,8 @@
 				</select></h4>
 			</div>
 			<div class="col-sm-1" id="signindiv">
-				<button id="signin">Sign In</button>
+				<button id="signin" onClick="reply_click(this.id)">Sign In</button>
+
 			</div>
 		</div>
 	</div>
@@ -44,12 +45,12 @@
 			<img src="ua.svg" alt=""/>
 		</div>
 		<div id="vid" class="col-sm-5 image-container">
-			<iframe src="https://docs.google.com/presentation/d/17CzzQc4o5T8Y-WLGMeR4Y0AztX0DvMzCC6IZe8YzCE0/embed?start=true&amp;loop=false&amp;delayms=3000" 
+			<iframe src="https://docs.google.com/presentation/d/17CzzQc4o5T8Y-WLGMeR4Y0AztX0DvMzCC6IZe8YzCE0/embed?start=true&amp;loop=false&amp;delayms=3000"
 					frameborder="0" width="720" height="420" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 		</div>
 	</div>
 	<br/>
-	
+
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-7">
@@ -58,10 +59,10 @@
 				We connect you with knowledgeable professionals who can help you to find the perfect job<br/>
 				and give you great advice. </p>
 		</div>
-	
+
 		<div class="col-md-2">
 			<br/><br/><br/>
-			<button id="join">Join Now</button>
+			<button id="join" onClick="reply_click(this.id)">Join Now</button>
 		</div>
 	</div>
 	
@@ -89,6 +90,7 @@
 		  <input type="text" id="username" placeholder="Enter Username" name="username" required>
 		  <br/>
 
+<<<<<<< Updated upstream
 		  <label><b>Password</b></label>
 		  <input type="password" id="password" placeholder="Enter Password" name="password" required>
 	  
@@ -134,6 +136,16 @@
 		</div>
 	  </form>
 	</div>
+=======
+	<script type="text/javascript">
+	function reply_click(clicked_id)
+	{
+			if (clicked_id=='signin') {
+				window.open("login1.html");
+			};
+	}
+	</script>
+>>>>>>> Stashed changes
 
 <script src="loginscript.js"></script>
 </body>

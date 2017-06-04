@@ -1,0 +1,46 @@
+<html>
+<body>
+
+<h1>Welcome admin Niclas                        </h1><br>
+<h2>Registrera ny student</h2>
+<form action="reg_student.php" method="post">
+  namn: <input type="text" name="name"><br>
+  epost: <input type="text" name="email"><br>
+  personnummer: <input type="text" name="orgnumber"><br>
+  <input type="submit" value="ADD RECORD">
+</form>
+
+<h2>Skapa ny kurs</h2>
+<form action="reg_course.php" method="post">
+  namn: <input type="text" name="name"><br>
+  kursnummer: <input type="text" name="coursenumber"><br>
+  l&auml;s&aring;r: <input type="text" name="year"><br>
+  termin: <input type="text" name="semester"><br>
+  <input type="submit" value="ADD RECORD">
+</form>
+
+<h2>Skapa ny klass</h2>
+<form action="reg_class.php" method="post">
+  namn: <input type="text" name="name"><br>
+  kursnummer: <input type="text" name="coursenumber"><br>
+  start&aring;r: <input type="text" name="year"><br>
+  <input type="submit" value="ADD RECORD">
+</form>
+
+<h2>Koppla student till klass</h2>
+<form action="reg_course.php" method="post">
+  studentnamn: <input type="text" name="coursename"><br>
+  klassnamn: <input type="text" name="classname"><br>
+  <input type="submit" value="ADD RECORD">
+</form>
+
+<h2>Koppla klass till kurs</h2>
+<form action="reg_course.php" method="post">
+  klassnamn: <input type="text" name="classname"><br>
+  kursnamn: <input type="text" name="coursename"><br>
+  start&aring;r: <input type="text" name="year"><br>
+  <input type="submit" value="ADD RECORD">
+</form>
+
+</body>
+</html>
